@@ -27,4 +27,4 @@ Refactoring a legacy monolith into a decoupled, testable **Clean Architecture** 
 * **iPASS Cross-Border Payment:** Designed the FSM-based transaction core for TWQR/PayPay integration, ensuring **100% data consistency** across distributed systems.
 * **Self-Healing System:** Automated reconciliation processes using background workers, reducing manual support tickets by **90%**.
 
-📫 **Contact:** [你的LinkedIn連結]
+📫 **Contact:** [www.linkedin.com/in/larry-kang]
