@@ -21,6 +21,10 @@ A reference implementation of a resilient payment gateway handling **TWQR standa
 Refactoring a legacy monolith into a decoupled, testable **Clean Architecture** solution.
 * **Highlights:** Dependency Injection, Repository Pattern, Unit Testing.
 
+#### 3. [GAS-Asset-Tracker](https://github.com/Larry-kang/GAS_Asset_Tracker) (DevOps & Automation)
+A serverless asset tracking system implementing **Bitcoin-Standard** accounting.
+* **Automation:** Fully automated data pipeline using **Google Apps Script** and **GitHub Actions** for CI/CD.
+* **Integration:** Real-time API integration for crypto/fiat exchange rates, strictly separating concerns between data fetching and visualization.
 ---
 
 ### 📈 Professional Impact
