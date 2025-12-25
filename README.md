@@ -24,15 +24,15 @@ I specialize in building **high-concurrency payment gateways** and modernizing l
 * **Key Features:** Idempotency Middleware, Finite State Machine (FSM) for transaction lifecycles, and "Double-Spending" protection.
 * **技術亮點:** 實作冪等性中間件、交易狀態機 (FSM) 與防止雙重支付機制。
 
-#### 2. [PetPet.Modern](https://github.com/Larry-kang/PetPet/tree/main/PetPet.Modern)
-> **Legacy to Clean Architecture Refactoring | 舊系統現代化重構範例**
-* **Highlights:** Refactoring a legacy monolith into a decoupled, testable **Clean Architecture** solution with Dependency Injection and Unit Testing.
-* **技術亮點:** 將傳統單體式應用重構為分層架構，導入依賴注入 (DI) 與單元測試。
-
-#### 3. [GAS-Asset-Tracker](https://github.com/Larry-kang/GAS_Asset_Tracker) (DevOps & Automation)
+#### 2. [GAS-Asset-Tracker](https://github.com/Larry-kang/GAS_Asset_Tracker) (DevOps & Automation)
 > **Serverless Asset Dashboard | 自動化資產追蹤系統**
 * **Automation:** Fully automated data pipeline using **Google Apps Script** and **GitHub Actions** for CI/CD.
 * **技術亮點:** 實作 Serverless 自動化流水線與 CI/CD 整合，實現比特幣本位資產管理。
+* 
+#### 3. [PetPet.Modern](https://github.com/Larry-kang/PetPet/tree/main/PetPet.Modern)
+> **Legacy to Clean Architecture Refactoring | 舊系統現代化重構範例**
+* **Highlights:** Refactoring a legacy monolith into a decoupled, testable **Clean Architecture** solution with Dependency Injection and Unit Testing.
+* **技術亮點:** 將傳統單體式應用重構為分層架構，導入依賴注入 (DI) 與單元測試。
 
 ---
 
