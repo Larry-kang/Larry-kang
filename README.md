@@ -1,6 +1,6 @@
-### Hi there, I'm Larry Kang 👋
+### Hi there, I'm Larry Kang
 
-#### 🚀 Senior Backend Engineer | FinTech & Payment Systems Architecture
+#### Senior Backend Engineer | FinTech & Payment Systems Architecture
 #### 🇹🇼 資深後端工程師 | 金融科技與支付架構設計
 
 I specialize in building **high-concurrency payment gateways** and modernizing legacy .NET systems. Currently engineering cross-border payment solutions (TWQR/PayPay) at **iPASS**, handling millions of transactions with strict financial consistency.
@@ -9,7 +9,7 @@ I specialize in building **high-concurrency payment gateways** and modernizing l
 
 ---
 
-### 💡 Core Competencies (核心能力)
+### Core Competencies (核心能力)
 
 * **Architecture (架構設計):** Clean Architecture, DDD, Microservices, Event-Driven Architecture.
 * **Reliability (高可用性):** Idempotency Design (冪等性), Distributed Locking (分散式鎖), Circuit Breaker (Polly).
@@ -17,7 +17,7 @@ I specialize in building **high-concurrency payment gateways** and modernizing l
 
 ---
 
-### 🏆 Featured Projects (精選專案)
+### Featured Projects (精選專案)
 
 #### 1. [TWQR-Transaction-Core](https://github.com/larry-kang/TWQR-Transaction-Core) (In Progress)
 > **High-Reliability Payment Gateway Implementation | 高可靠性支付核心實作**
@@ -36,7 +36,7 @@ I specialize in building **high-concurrency payment gateways** and modernizing l
 
 ---
 
-### 📈 Professional Impact (商業影響力)
+### Professional Impact (商業影響力)
 
 * **iPASS Cross-Border Payment (跨境支付架構):**
     * Designed the FSM-based transaction core for TWQR/PayPay integration, ensuring **100% data consistency** across distributed systems.
@@ -47,4 +47,4 @@ I specialize in building **high-concurrency payment gateways** and modernizing l
 
 <br>
 
-📫 **Contact:** [LinkedIn Profile](https://www.linkedin.com/in/larry-kang/)
+**Contact:** [LinkedIn Profile](https://www.linkedin.com/in/larry-kang/)
