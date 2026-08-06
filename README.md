@@ -1,50 +1,71 @@
-### Hi there, I'm Larry Kang
+# Larry Kang 👋
 
-#### Senior Backend Engineer | FinTech & Payment Systems Architecture
-#### 🇹🇼 資深後端工程師 | 金融科技與支付架構設計
-
-I specialize in building **high-concurrency payment gateways** and modernizing legacy .NET systems. Currently engineering cross-border payment solutions (TWQR/PayPay) at **iPASS**, handling millions of transactions with strict financial consistency.
-
-專精於建構 **高併發支付閘道 High-Concurrency Gateway** 與 **舊系統現代化重構 Legacy Modernization**。目前於 **iPASS 一卡通** 負責跨境支付核心 (TWQR/PayPay)，透過嚴謹的架構設計確保千萬級交易的 **帳務一致性**。
+**Senior Backend Engineer @ iPASS (一卡通)**  
+*FinTech & Electronic Payment Systems | C# / .NET | Automation | Enterprise AI Enablement*
 
 ---
 
-### Core Competencies 核心能力
+### 👨‍💻 About Me
 
-* **Architecture 架構設計:** Clean Architecture, DDD, Microservices, Event-Driven Architecture.
-* **Reliability 高可用性:** Idempotency Design (冪等性), Distributed Locking (分散式鎖), Circuit Breaker (Polly).
-* **Tech Stack 技術棧:** C# / .NET 8, EF Core, SQL Server, Redis, RabbitMQ, Docker.
+資深後端工程師，任職於一卡通（iPASS），主要參與電子支付系統相關的後端開發與模組維護，涵蓋乘車碼、生活繳費、TWQR 跨機構與跨境支付等場景。
 
----
+專注於可靠的 API 服務、支付交易流程、帳務邏輯、系統現代化重構與自動化工具開發。目前亦參與公司內部 **FDE（Forward Deployed Engineer）AI 導入小組**，從實際工作流程與領域痛點出發，探索可落地、可治理且可量化驗證的企業 AI 應用。
 
-### Featured Projects 精選專案
-
-#### 1. [TWQR-Transaction-Core](https://github.com/larry-kang/TWQR-Transaction-Core) (In Progress)
-> **High-Reliability Payment Gateway Implementation | 高可靠性支付核心實作**
-* **Key Features:** Idempotency Middleware, Finite State Machine (FSM) for transaction lifecycles, and "Double-Spending" protection.
-* **技術亮點:** 實作冪等性中間件、交易狀態機 (FSM) 與防止雙重支付機制。
-
-#### 2. [GAS-Asset-Tracker](https://github.com/Larry-kang/GAS_Asset_Tracker) (DevOps & Automation)
-> **Serverless Asset Dashboard | 自動化資產追蹤系統**
-* **Automation:** Fully automated data pipeline using **Google Apps Script** and **GitHub Actions** for CI/CD.
-* **技術亮點:** 實作 Serverless 自動化流水線與 CI/CD 整合，實現比特幣本位資產管理。
-  
-#### 3. [PetPet.Modern](https://github.com/Larry-kang/PetPet/tree/main/PetPet.Modern)
-> **Legacy to Clean Architecture Refactoring | 舊系統現代化重構範例**
-* **Highlights:** Refactoring a legacy monolith into a decoupled, testable **Clean Architecture** solution with Dependency Injection and Unit Testing.
-* **技術亮點:** 將傳統單體式應用重構為分層架構，導入依賴注入 (DI) 與單元測試。
+- 🏢 **Current Role**: Senior Backend Engineer @ iPASS
+- 💳 **Backend Focus**: Payment APIs, Transaction Flow, Idempotency, Reconciliation, System Modernization
+- 🤖 **FDE Focus**: AI-assisted Knowledge Engineering, Workflow Analysis, Internal PoC & AI Governance
+- 🛠️ **Core Tech**: C# / .NET 8, ASP.NET Core, SQL Server, Redis, PostgreSQL, TypeScript, Google Apps Script
 
 ---
 
-### Professional Impact 商業影響力
+### 🚀 Current Focus: FDE & Enterprise AI Enablement
 
-* **iPASS Cross-Border Payment 跨境支付架構:**
-    * Designed the FSM-based transaction core for TWQR/PayPay integration, ensuring **100% data consistency** across distributed systems.
-    * 設計基於狀態機 (FSM) 的交易核心，確保在分散式環境下的 **帳務資料絕對一致**。
-* **Self-Healing System 自我修復機制:**
-    * Automated reconciliation processes using background workers, reducing manual support tickets by **90%**.
-    * 建置非同步自動對帳系統 (Reconciliation Worker)，大幅降低 **90%** 的人工查單需求。
+目前參與跨單位 FDE 導入工作，目標不是單純導入模型，而是將 AI 對準真實流程瓶頸，並以最小可行 PoC 驗證成效。
 
-<br>
+- 從既有程式碼、Wiki 與資深人員經驗中提煉可維護的領域知識與工程技能（Skills）
+- 降低關鍵知識集中於少數人員所造成的分析瓶頸與新人學習成本
+- 探索研發問答、程式碼分析、文件生成與測試情境輔助等工程應用
+- 評估企業內網／混合式 AI 架構、權限控管、資料去識別化、稽核與人工覆核機制
+- 以可量化指標驗證 PoC，再逐步擴充至跨單位流程與對話式資料應用
 
-**Contact:** [LinkedIn Profile](https://www.linkedin.com/in/larry-kang/)
+> **Approach:** Workflow First → Rules & Automation → AI Where It Adds Measurable Value
+
+---
+
+### 🤖 AI Agentic Workflow Practice (跨 Agent 實務編排)
+
+日常開發深度實踐 **Multi-Agent 協同開發流**，將多款 AI 工具與 Agent 定位為高效率 Pair Programmers：
+
+- **Multi-Agent Stack & Execution**：靈活編排並行運用 Hermes Agent、OpenClaw、Codex、Gemini、Antigravity 及 GitHub Copilot 處理架構探索、重構與自動化任務。
+- **Shared Skill Specifications (跨 Agent 技能共享)**：建立跨 Agent 標準化 Custom Skills，確保不同 AI 工具皆遵循統一的開發規範、TDD 測試限制與領域 SOP。
+- **Centralized Knowledge Hub (統一知識中樞)**：建構單一 Markdown 第二大腦作為跨 AI 協作的知識中樞（Source of Truth），實現跨 Agent 記憶延續、架構決策沉澱與專案脈絡追蹤。
+
+---
+
+### 📌 Repositories & Projects
+
+- **[GAS-Asset-Tracker](https://github.com/Larry-kang/GAS_Asset_Tracker)**  
+  *Serverless 個人資產追蹤與風控系統*  
+  使用 Google Apps Script 建立自動化資料流水線，串接多個加密貨幣交易所（Binance、OKX、Bybit、BitoPro）API、台美股與匯率報價，實作動態資產計算與風險預警機制。
+
+- **[TWQR-Transaction-Core](https://github.com/Larry-kang/TWQR-Transaction-Core)** *(PoC / In Progress)*  
+  *TWQR 交易核心模組雛形*  
+  探索 TWQR 支付流程、API 介面、交易狀態與 Clean Architecture 分層設計。
+
+- **[PetPet.Modern](https://github.com/Larry-kang/PetPet/tree/main/PetPet.Modern)**  
+  *舊系統 Clean Architecture 重構練習*  
+  將傳統單體專案重構為分層架構，導入依賴注入（Dependency Injection）、關注點分離與可測試性設計。
+
+---
+
+### 🎯 Engineering Principles
+
+- **務實可靠（Pragmatic & Reliable）**：以生產環境穩定度與實際成果為優先，不為技術而技術。
+- **根因分析（Root Cause Analysis）**：先釐清問題來源與系統性因素，再進行可驗證、可回滾的修正。
+- **交易一致性（Transaction Integrity）**：重視冪等性、併發控制、交易邊界、重試與例外處理。
+- **自動化維運（Automation）**：將重複性作業轉化為可觀測、可維護的工具與流程。
+- **AI 適用性（Responsible AI Adoption）**：先確認規則與傳統自動化是否足夠；只有 AI 能帶來明確增益時才導入，並保留治理與人工覆核。
+
+---
+
+📫 **Contact**: [LinkedIn](https://www.linkedin.com/in/larry-kang/) | [GitHub](https://github.com/Larry-kang)
