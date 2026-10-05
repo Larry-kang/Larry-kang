@@ -1,109 +1,41 @@
-# Larry Kang 👋
+# Larry Kang
 
-**Senior Backend Engineer @ iPASS (一卡通)**  
-*Payment Systems Reliability | C# / .NET | AI-assisted Engineering Workflow*
+**資深後端工程師 @ 一卡通（iPASS）**  
+C# / .NET · 電子支付與系統整合 · 交易可靠性 · Agent 協作研發
 
----
+## 關於我
 
-### 👨‍💻 About Me
+自 2021/8 起從事正式環境後端開發，具 5 年以上 C#／.NET 電子支付系統經驗。職涯前期另有製造業與遊艇專案管理經驗，延伸至需求釐清、工作拆解及跨部門交付。
 
-資深後端工程師，具約五年金融支付後端開發經驗，目前任職於一卡通（iPASS）。
+工作涵蓋 TWQR、PayPay、跨境支付、數位券與生活繳費的後端功能、API 整合、交易狀態、重複請求防護、併發控制、背景對帳／補償、異常排查及既有系統重構。公司 TWQR API 流程由本人設計，早期版本人工實作，目前以 Agent 協作流程持續改版。
 
-主要參與 TWQR、跨境支付、數位券與生活繳費等後端系統，工作範圍涵蓋需求釐清、交易流程與 API 設計、外部系統整合、併發與重複交易處理、背景對帳、異常排查、測試上線及既有系統重構。
+核心技術：**C#、.NET 8／.NET Core、ASP.NET Core Web API、MS SQL Server、Redis、Git**。
 
-我關注的不只是功能能否完成，也包含第三方逾時、重複請求、競態條件、交易狀態不一致及後續維運等失敗情境，並透過冪等性、狀態管理、併發控制與補償流程提升系統可靠度。
+## Agent 協作與團隊知識共享
 
-- 🏢 **Current Role**: Senior Backend Engineer @ iPASS
-- 💳 **Payment Engineering**: Transaction Flow, API Integration, Idempotency, Concurrency Control, Reconciliation
-- 🧱 **Backend Engineering**: C# / .NET 8, ASP.NET Core, SQL Server, Redis, RESTful API
-- 🤖 **AI Engineering**: Requirement Analysis, Context Gathering, Planning, Human Review, Testing & PR Workflow
+- 已在數個本人負責的工作任務使用「需求 → Spec → 開發 → 驗收 → PR／異動單」流程。以對話提供素材與規格，由 Agent 建立計畫、文件與交付草稿，本人負責 review 計畫、補充資訊及結果驗收。
+- commit／PR 資訊採 Agent 建立草稿、人工審核同意後執行。此為協作流程規範。
+- 參與公司跨單位 FDE AI 導入小組，為 RD 組兩位代表之一。獨立製作 RD 共用 Skill 專案、制定格式規範並建立 CI 格式驗證；首版於 2026/8 經組長與主管 review 後發布，並完成全組教學。
+- 部分同事已開始使用，團隊仍在學習與初步採用階段；每月 Domain Know-how 投稿與 review 納入後續版本為規劃，尚未進版。
+- 另以 AI 協作推進 Python／FastMCP beta POC，串接既有 API 與測試環境後台，部分功能已有驗證；完整 Agent 流程仍待分工整合。本人主要負責需求、規格討論及確認驗證結果。
 
----
+近期新技術作品的程式主要由 AI 產生，我以需求、規格討論與結果驗證為主。目前 Python、FastAPI、FastMCP、Docker、GitHub Actions 與 MCP 串接屬 AI 協作接觸／原型經驗，尚未列為可獨立維護的核心專長。曾使用 Codex、Antigravity、Grok 與 GitHub Copilot；此為工具使用經驗。
 
-### 💳 Core Expertise
+## 公開作品與本人貢獻
 
-#### Payment Systems Reliability
+| 作品 | 定位與貢獻 |
+| --- | --- |
+| [TWQR-Transaction-Core](https://github.com/Larry-kang/TWQR-Transaction-Core) | 個人支付系統 POC，公開框架由 AI 協作建立；本人透過需求與規格討論探索冪等性、交易狀態、併發及對帳。屬早期實作，部分目標仍在規劃，完成範圍以程式碼與測試為準；與公司正式 TWQR 系統分開呈現。 |
+| [GAS_Asset_Tracker](https://github.com/Larry-kang/GAS_Asset_Tracker) | 初版由本人以 Google Apps Script 撰寫，後續主要由 AI 協作改版，本人負責需求與結果驗收。個人使用工具，每日排程快照、每 30 分鐘同步價格；公開介紹僅呈現一般資料整合與排程技術。 |
+| [PetPet.Modern](https://github.com/Larry-kang/PetPet/tree/main/PetPet.Modern) | 原始 PetPet 為本人轉職職訓期間手寫作品；Modern 為後續 Agent 協作的 .NET 8 改造，呈現既有系統整理與重構成果。 |
+| [market-regime-weekly](https://github.com/Larry-kang/market-regime-weekly) | 公開市場資料與日報／週報專案，程式由 AI 產生；本人以對話提出需求及確認規格。專案使用 Python 與 GitHub Actions 更新資料、產生報告並發布至 GitHub Pages。 |
 
-- 支付與帳務交易流程設計
-- API 冪等性與重複交易防護
-- 交易狀態管理與例外處理
-- Redis 併發控制與分散式協調
-- 第三方服務逾時、查詢與補償流程
-- 背景對帳、差異辨識與異常追蹤
-- 外部機構 API 與批次資料整合
+[公開市場報告網站](https://larry-kang.github.io/market-regime-weekly/)
 
-#### Backend & System Modernization
+公司內部程式碼、規格與交易資料不包含於公開作品；個人帳號、憑證與資產現況不作為展示內容。
 
-- C# / .NET 後端服務與 Web API 開發
-- SQL Server 資料存取、交易邊界與效能分析
-- 既有系統模組化與漸進式重構
-- Clean Architecture、Dependency Injection 與可測試性設計
-- 問題排查、Root Cause Analysis 與跨單位需求溝通
+## 職涯方向
 
----
+持續發展 C#／.NET 後端、支付交易可靠性與系統整合，並延伸企業 AI 工作流程整合。定居高雄，偏好高雄或可長住高雄的 Remote／Hybrid 工作。
 
-### 🤖 AI-assisted Engineering Workflow
-
-我將 AI 視為工程流程中的協作者，而不是最終決策者。實際運用方式以可追蹤、可驗證及可回溯為原則：
-
-```text
-Requirement
-→ Context & Repository Analysis
-→ Implementation Plan
-→ Human Review
-→ Incremental Changes
-→ Tests & Diff Review
-→ Pull Request
-```
-
-- 透過 AI 協助理解需求、盤點影響範圍及整理既有程式碼脈絡
-- 實作前先產出 Plan，拆分施工階段、假設、風險與驗證方式
-- 經人工確認後才分階段修改，避免一次產生大範圍不可控變更
-- 以編譯、測試、Git Diff、相容性及例外情境驗證 AI 產出
-- 最終架構取捨、風險判斷、程式審查與交付責任仍由工程師負責
-
----
-
-### 🧠 FDE & Knowledge Engineering PoC
-
-目前參與公司跨單位 FDE（Forward Deployed Engineer）AI 導入小組，相關工作仍處於早期 PoC 與需求探索階段。
-
-現階段主要關注：
-
-- 盤點既有 Code、Wiki 與資深人員的領域知識
-- 探索將重複使用的工程知識整理為 Skill／Knowledge 規範
-- 從單一 Domain 驗證需求分析、知識查找及新人上手等場景
-- 評估權限控管、資料去識別化、稽核及人工覆核機制
-- 使用可量化指標判斷是否值得擴大導入
-
-> **Approach:** Workflow First → Rules & Automation → AI Where It Adds Measurable Value
-
----
-
-### 📌 Repositories & Projects
-
-- **[TWQR-Transaction-Core](https://github.com/Larry-kang/TWQR-Transaction-Core)** *(Personal PoC / In Progress)*  
-  *支付交易核心模擬專案*  
-  使用 .NET 8 與 Clean Architecture 探索交易狀態、API 冪等性、Redis 分散式鎖、背景對帳及例外處理。此專案為個人技術模擬，與公司正式系統及內部程式碼無關。
-
-- **[GAS-Asset-Tracker](https://github.com/Larry-kang/GAS_Asset_Tracker)**  
-  *Serverless 個人資產追蹤與風控系統*  
-  使用 Google Apps Script 建立自動化資料流水線，串接加密貨幣交易所、台美股與匯率資料，實作資產計算、借貸追蹤及風險預警。
-
-- **[PetPet.Modern](https://github.com/Larry-kang/PetPet/tree/main/PetPet.Modern)**  
-  *Legacy System Refactoring Practice*  
-  將傳統單體專案逐步重構為分層架構，導入依賴注入、關注點分離與可測試性設計。
-
----
-
-### 🎯 Engineering Principles
-
-- **Pragmatic & Reliable**：以生產環境穩定度及可驗證成果為優先，不為技術而技術。
-- **Transaction Integrity**：主動考慮冪等性、交易邊界、併發、重試、逾時與補償。
-- **Root Cause Analysis**：先釐清根因與系統性因素，再進行最小、可驗證且可回滾的修改。
-- **Incremental Modernization**：以漸進方式改善既有系統，兼顧風險、時程與向後相容。
-- **Responsible AI Adoption**：AI 產出必須經過人工審核、測試與風險確認，並保留決策責任。
-
----
-
-📫 **Contact**: [LinkedIn](https://www.linkedin.com/in/larry-kang/) | [GitHub](https://github.com/Larry-kang)
+[LinkedIn](https://www.linkedin.com/in/larry-kang/) · [GitHub](https://github.com/Larry-kang)
