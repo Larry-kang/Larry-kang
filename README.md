@@ -27,7 +27,7 @@ C# / .NET · 電子支付與系統整合 · 交易可靠性 · Agent 協作研�
 | --- | --- |
 | [TWQR-Transaction-Core](https://github.com/Larry-kang/TWQR-Transaction-Core) | 個人支付系統 POC，公開框架由 AI 協作建立；本人透過需求與規格討論探索冪等性、交易狀態、併發及對帳。屬早期實作，部分目標仍在規劃，完成範圍以程式碼與測試為準；與公司正式 TWQR 系統分開呈現。 |
 | [GAS_Asset_Tracker](https://github.com/Larry-kang/GAS_Asset_Tracker) | 初版由本人以 Google Apps Script 撰寫，後續主要由 AI 協作改版，本人負責需求與結果驗收。個人使用工具，每日排程快照、每 30 分鐘同步價格；公開介紹僅呈現一般資料整合與排程技術。 |
-| [PetPet.Modern](https://github.com/Larry-kang/PetPet/tree/main/PetPet.Modern) | 原始 PetPet 為本人轉職職訓期間手寫作品；Modern 為後續 Agent 協作的 .NET 8 改造，呈現既有系統整理與重構成果。 |
+| [PetPet.Modern](https://github.com/Larry-kang/PetPet/tree/master/PetPet.Modern) | 原始 PetPet 為本人轉職職訓期間手寫作品；Modern 為後續 Agent 協作的 .NET 8 改造，呈現既有系統整理與重構成果。 |
 | [market-regime-weekly](https://github.com/Larry-kang/market-regime-weekly) | 公開市場資料與日報／週報專案，程式由 AI 產生；本人以對話提出需求及確認規格。專案使用 Python 與 GitHub Actions 更新資料、產生報告並發布至 GitHub Pages。 |
 
 [公開市場報告網站](https://larry-kang.github.io/market-regime-weekly/)
