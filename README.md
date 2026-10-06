@@ -1,41 +1,37 @@
 # Larry Kang
 
-**資深後端工程師 @ 一卡通（iPASS）**  
-C# / .NET · 電子支付與系統整合 · 交易可靠性 · Agent 協作研發
+**資深後端工程師 Senior Backend Engineer @ 一卡通（iPASS）**  
+C# / .NET · 支付 API · 系統整合 · 交易可靠性 · Agent 協作
 
-## 關於我
+自 2021/8 起從事正式後端開發，具 **5 年以上 C#／.NET 電子支付系統經驗**。結合職涯前期的製造業與專案管理背景，習慣從需求釐清、規格與工作拆解，推進到實作、驗收與跨部門交付。
 
-自 2021/8 起從事正式環境後端開發，具 5 年以上 C#／.NET 電子支付系統經驗。職涯前期另有製造業與遊艇專案管理經驗，延伸至需求釐清、工作拆解及跨部門交付。
+定居高雄，歡迎高雄或可長住高雄的 **Remote／Hybrid 資深後端、系統整合與企業 AI 應用職缺**，可透過 [LinkedIn](https://www.linkedin.com/in/larry-kang/) 聯繫。
 
-工作涵蓋 TWQR、PayPay、跨境支付、數位券與生活繳費的後端功能、API 整合、交易狀態、重複請求防護、併發控制、背景對帳／補償、異常排查及既有系統重構。公司 TWQR API 流程由本人設計，早期版本人工實作，目前以 Agent 協作流程持續改版。
+## 正式工作實績
+
+- **支付 API 設計與系統整合**：設計 PayPay 正掃／反掃與公司 TWQR API 流程，整合支付模組及外部服務，處理交易狀態、冪等性與非同步結果確認；TWQR 隨版本演進抽取共用支付及交易紀錄邏輯，支援跨行、信用卡 3DS 與數位券等情境。
+- **資料處理與批次改善**：台水待繳帳單排程由逐筆查詢改用批次 API，依執行紀錄量測，執行時間縮短約 **90%**。
+- **C# 開發與正式環境排查**：早期支付版本人工實作，現以 Agent 協作持續改版；本人仍負責 C# diff 審查、修改邏輯確認、驗收與正式環境異常排查。
 
 核心技術：**C#、.NET 8／.NET Core、ASP.NET Core Web API、MS SQL Server、Redis、Git**。
 
-## Agent 協作與團隊知識共享
+## Agent 協作與團隊導入
 
-- 已在數個本人負責的工作任務使用「需求 → Spec → 開發 → 驗收 → PR／異動單」流程。以對話提供素材與規格，由 Agent 建立計畫、文件與交付草稿，本人負責 review 計畫、補充資訊及結果驗收。
-- commit／PR 資訊採 Agent 建立草稿、人工審核同意後執行。此為協作流程規範。
-- 參與公司跨單位 FDE AI 導入小組，為 RD 組兩位代表之一。獨立製作 RD 共用 Skill 專案、制定格式規範並建立 CI 格式驗證；首版於 2026/8 經組長與主管 review 後發布，並完成全組教學。
-- 部分同事已開始使用，團隊仍在學習與初步採用階段；每月 Domain Know-how 投稿與 review 納入後續版本為規劃，尚未進版。
-- 另以 AI 協作推進 Python／FastMCP beta POC，串接既有 API 與測試環境後台，部分功能已有驗證；完整 Agent 流程仍待分工整合。本人主要負責需求、規格討論及確認驗證結果。
+- 已在數個實際工作任務完成「需求 → Spec → 開發 → 驗收 → PR／異動單」。Agent 建立計畫、文件及交付草稿，本人審核規格、C# 修改與驗收結果；commit／PR／異動單經人工確認後執行。
+- 為公司跨單位 FDE 小組的兩位 RD 代表之一，**獨立建立 RD 共用 Skill、使用規範與 CI 格式驗證**。首版於 2026/8 經組長及主管 review 後發布，完成全組教學；部分同事已開始使用，目前為初期採用。逐月收集領域知識、review 後進版為後續規劃。
+- 協助跨單位 **Python／FastMCP Beta POC**，以 AI 協作串接既有 API 與測試環境後台。部分功能已有驗證，完整 Agent 流程待分工整合；本人負責需求、規格與驗證結果確認。
 
-近期新技術作品的程式主要由 AI 產生，我以需求、規格討論與結果驗證為主。目前 Python、FastAPI、FastMCP、Docker、GitHub Actions 與 MCP 串接屬 AI 協作接觸／原型經驗，尚未列為可獨立維護的核心專長。曾使用 Codex、Antigravity、Grok 與 GitHub Copilot；此為工具使用經驗。
+日常使用 Codex、GitHub Copilot。新技術原型主要由 AI 產生程式，本人以需求、規格討論與結果驗證為主；Python、FastAPI、FastMCP、Docker、GitHub Actions 與 MCP 串接屬 AI 協作接觸／原型經驗，核心可獨立維護的專長仍以 C#／.NET 後端為主。
 
 ## 公開作品與本人貢獻
 
-| 作品 | 定位與貢獻 |
+| 作品 | 定位與本人貢獻 |
 | --- | --- |
-| [TWQR-Transaction-Core](https://github.com/Larry-kang/TWQR-Transaction-Core) | 個人支付系統 POC，公開框架由 AI 協作建立；本人透過需求與規格討論探索冪等性、交易狀態、併發及對帳。屬早期實作，部分目標仍在規劃，完成範圍以程式碼與測試為準；與公司正式 TWQR 系統分開呈現。 |
-| [GAS_Asset_Tracker](https://github.com/Larry-kang/GAS_Asset_Tracker) | 初版由本人以 Google Apps Script 撰寫，後續主要由 AI 協作改版，本人負責需求與結果驗收。個人使用工具，每日排程快照、每 30 分鐘同步價格；公開介紹僅呈現一般資料整合與排程技術。 |
-| [PetPet.Modern](https://github.com/Larry-kang/PetPet/tree/master/PetPet.Modern) | 原始 PetPet 為本人轉職職訓期間手寫作品；Modern 為後續 Agent 協作的 .NET 8 改造，呈現既有系統整理與重構成果。 |
-| [market-regime-weekly](https://github.com/Larry-kang/market-regime-weekly) | 公開市場資料與日報／週報專案，程式由 AI 產生；本人以對話提出需求及確認規格。專案使用 Python 與 GitHub Actions 更新資料、產生報告並發布至 GitHub Pages。 |
+| [TWQR-Transaction-Core](https://github.com/Larry-kang/TWQR-Transaction-Core) | 個人支付系統早期 POC，公開框架由 AI 協作建立；本人透過需求與規格討論探索支付工程議題。部分目標仍在規劃，完成範圍以程式碼與測試為準，與公司正式 TWQR 系統分開呈現。 |
+| [PetPet.Modern](https://github.com/Larry-kang/PetPet/tree/master/PetPet.Modern) | 原始 PetPet 為轉職職訓期間手寫作品；Modern 為後續 Agent 協作的 .NET 8 改造，呈現既有系統整理與重構成果。 |
+| [GAS_Asset_Tracker](https://github.com/Larry-kang/GAS_Asset_Tracker) | 初版本人以 Google Apps Script 撰寫，後續主要由 AI 協作改版，本人負責需求與結果驗收。個人使用工具，具每日排程快照及每 30 分鐘價格同步。 |
+| [market-regime-weekly](https://github.com/Larry-kang/market-regime-weekly) | 公開市場資料與日報／週報專案，程式由 AI 產生；本人提出需求、確認規格與驗證結果。以 Python、GitHub Actions 與 GitHub Pages 進行資料更新及報告發布。 |
 
 [公開市場報告網站](https://larry-kang.github.io/market-regime-weekly/)
 
-公司內部程式碼、規格與交易資料不包含於公開作品；個人帳號、憑證與資產現況不作為展示內容。
-
-## 職涯方向
-
-持續發展 C#／.NET 後端、支付交易可靠性與系統整合，並延伸企業 AI 工作流程整合。定居高雄，偏好高雄或可長住高雄的 Remote／Hybrid 工作。
-
-[LinkedIn](https://www.linkedin.com/in/larry-kang/) · [GitHub](https://github.com/Larry-kang)
+公開作品僅呈現一般技術與公開資料，不包含公司內部程式碼、規格、交易資料，亦不展示個人帳號、憑證或資產現況。
