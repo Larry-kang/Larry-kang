@@ -25,7 +25,7 @@ C#／.NET · 支付 API · 交易可靠性 · 系統整合 · AI 協作流程導
 
 | 作品 | 成果與狀態 | 本人貢獻 |
 | --- | --- | --- |
-| [PetPet.Modern](https://github.com/Larry-kang/PetPet/tree/master/PetPet.Modern) | 將早期 .NET Framework 職訓作品改造為 .NET 8 版本 | 原版手寫；Modern 由 Agent 改造，本人討論需求與驗收成果 |
+| [PetPet.Modern](https://github.com/Larry-kang/PetPet/tree/master/PetPet.Modern) |  .NET 8 寵物社群本地 Demo：EF Core、SQLite、SignalR；一鍵啟動、120 位合成會員、1,200 則貼文與 2,400 則留言；72 項自動化測試及瀏覽器／本人操作驗收，未對外營運 | 原版手寫；Modern 程式主要由 Agent 協作改造，本人主導需求、規格與成果驗收 |
 | [GAS_Asset_Tracker](https://github.com/Larry-kang/GAS_Asset_Tracker) | 個人資料整合工具：每日快照、每 30 分鐘價格同步 | 初版以 GAS 手寫；後續 AI 協作，本人負責需求與驗收 |
 | [market-regime-weekly](https://github.com/Larry-kang/market-regime-weekly) | 公開市場資料、日報／週報與網站發布 | 本人提出需求、確認規格及查看結果；程式由 AI 產生 |
 | [TWQR-Transaction-Core](https://github.com/Larry-kang/TWQR-Transaction-Core) | 個人支付早期 POC，部分目標仍在規劃；與公司正式系統分開呈現 | 公開框架由 AI 建立，本人討論需求與規格 |
