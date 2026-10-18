@@ -1,48 +1,24 @@
-# MingHao Kang（Larry）
+# Larry
 
+我是一名 C#／.NET 後端工程師，住在高雄。這裡放自己會使用的工具，以及一些學習與實驗專案。
 
-**資深後端工程師 @ 一卡通（iPASS）**  
-C#／.NET · 支付 API · 交易可靠性 · 系統整合 · AI 協作流程導入
+## 日常使用的工具
 
+| 專案 | 用途 |
+| --- | --- |
+| [Larry Lab](https://github.com/Larry-kang/larry-lab) · [網站](https://larry-lab.pages.dev/) | 房貸、信貸、股票質押、退休與投資組合試算，讓不同假設與方案可以一起比較。 |
+| [GAS Asset Tracker](https://github.com/Larry-kang/GAS_Asset_Tracker) | 用 Google Apps Script 整合個人資產資料，每日保存快照、每 30 分鐘同步價格。 |
+| [Market Regime Weekly](https://github.com/Larry-kang/market-regime-weekly) · [報告網站](https://larry-kang.github.io/market-regime-weekly/) | 整理公開市場資料，自動產生日報／週報並發布網站。 |
 
-自 2021/8 起從事正式後端開發，具 **5 年以上 C#／.NET 電子支付系統經驗**，另有製造業與專案管理背景。定居高雄，歡迎高雄或可長住高雄的 Remote／Hybrid 後端、系統整合與企業 AI 應用機會，可透過 [LinkedIn](https://www.linkedin.com/in/larry-kang/) 聯繫。
+## 展示與實驗
 
+- [PetPet.Modern](https://github.com/Larry-kang/PetPet/tree/master/PetPet.Modern)：將早期職訓作品改造為 .NET 8 寵物社群本地 Demo，使用模擬資料，未對外營運。
+- [TWQR-Transaction-Core](https://github.com/Larry-kang/TWQR-Transaction-Core)：探索交易狀態、冪等性與併發控制的早期 POC，完整交易流程尚未完成。與公司正式系統分開，不處理真實金流。
 
-核心技術：**C#、.NET 8／.NET Core、ASP.NET Core Web API、MS SQL Server、Redis、Git**。
+## 我如何做這些專案
 
+從自己遇到的問題出發，先討論需求、規格與驗收方式，再與 AI Agent 協作實作，持續使用並調整成果。
 
-## 工作成果
+GAS Asset Tracker 與原始 PetPet 的初版由我手寫；目前上述專案的後續開發大量使用 AI，實作主要由 Agent 完成，我負責需求決策、規格討論與結果驗收。各專案的細節與進度請見 README。
 
-
-- **支付 API 與可靠性**：設計 PayPay 正掃／反掃及公司 TWQR 交易流程，完成支付模組與外部服務整合、重複請求防護、非同步結果確認及 PayPay 狀態未明自動重問／補正。早期版本人工實作，現以 Agent 協作改版，仍由本人審核 C# 修改、驗收與正式環境排查。
-- **流程模組化**：隨 TWQR 版本演進抽取共用付款與交易紀錄邏輯，支援自行／跨行、信用卡 3DS 與數位券等付款情境。
-- **批次改善**：台水待繳帳單排程由逐筆查詢改為批次 API，依執行紀錄量測，執行時間縮短約 **90%**；另負責大樓管理費服務開發及票交既有功能擴充。
-
-
-## Agent 協作與團隊導入
-
-
-- 作為跨單位 FDE 小組兩位 RD 代表之一，**獨立建立 RD 共用 Skill、使用規範與 CI 格式驗證**。2026/8 完成主管審查、首版發布與全組教學，已有部分同事開始使用，採用仍處初期。
-- 以 Agent 協作完成數個「需求 → Spec → 開發 → 驗收 → PR／異動單」工作任務；本人審核計畫、C# 修改及驗收結果，交付草稿經人工確認後執行。
-- 參與 AI 協作的 Python／FastMCP **Beta POC**，負責需求、規格與功能驗證，完整 Agent 流程待分工整合。
-
-
-日常使用 Codex、GitHub Copilot。Python、FastAPI、FastMCP、Docker、GitHub Actions 與 MCP 串接屬 AI 協作原型／工具接觸，實作主要由 AI 完成。
-
-
-## 公開作品
-
-
-| 作品 | 成果與狀態 | 本人貢獻 |
-| --- | --- | --- |
-| [Larry Lab](https://github.com/Larry-kang/larry-lab)｜[開啟網站](https://larry-lab.pages.dev/) | 持續使用的房貸、信貸、股票質押、退休與投資組合試算工具，提供方案比較、CSV 匯出與設定保存 | 深入討論需求與計算規格，決定使用情境並驗收結果；程式由 AI 協作產生 |
-| [GAS Asset Tracker](https://github.com/Larry-kang/GAS_Asset_Tracker) | 持續使用的個人資產資料整合工具：每日快照、每 30 分鐘價格同步 | 初版以 GAS 手寫；後續深入討論功能與資料規格，由 AI 協作改版，本人負責需求與驗收 |
-| [Market Regime Weekly](https://github.com/Larry-kang/market-regime-weekly) | 持續使用的公開市場資料、日報／週報與網站發布工具 | 深入討論資料、報告與自動化規格，確認產出；程式由 AI 產生 |
-| [PetPet.Modern](https://github.com/Larry-kang/PetPet/tree/master/PetPet.Modern) | .NET 8 寵物社群本地 Demo：EF Core、SQLite、SignalR；提供一鍵啟動、模擬資料與自動化測試，未對外營運 | 原版手寫；Modern 程式主要由 Agent 協作改造，本人負責需求、規格與成果驗收 |
-| [TWQR-Transaction-Core](https://github.com/Larry-kang/TWQR-Transaction-Core) | 個人早期交易 POC，部分仍在規劃，尚未完成完整交易流程；與公司正式系統分開 | 公開框架由 AI 建立，本人討論需求與規格 |
-
-[查看公開市場報告](https://larry-kang.github.io/market-regime-weekly/)
-
-
-公開作品以一般技術與公開資料為範圍，不展示公司內部程式碼、規格、交易資料或個人帳號、憑證與資產現況。
-
+[LinkedIn](https://www.linkedin.com/in/larry-kang/)
