@@ -12,7 +12,7 @@ C#／.NET 後端工程師，關注系統整合、工作流程自動化與實用�
 
 ## 展示與實驗
 
-- **[PetPet.Modern](https://github.com/Larry-kang/PetPet/tree/master/PetPet.Modern)** — .NET 8 寵物社群改造；SQLite 本機展示版已完成人工驗收，公開版本待同步。
+- **[PetPet.Modern](https://github.com/Larry-kang/PetPet/tree/master/PetPet.Modern)** — .NET 8 寵物社群本機 Demo，提供 SQLite 自動初始化、合成資料與啟動腳本，已驗證從 GitHub 全新下載後首次啟動；未對外營運。
 - **[QR-Payment-Core｜QR 支付交易紀錄 POC](https://github.com/Larry-kang/QR-Payment-Core)** — C#／.NET 10 與 SQLite 早期 POC，提供交易記錄 API、基本重複 key 檢查與唯一索引；主掃／被掃付款流程尚未實作，不處理真實金流。
 
 [LinkedIn](https://www.linkedin.com/in/larry-kang/)
