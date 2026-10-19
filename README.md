@@ -2,7 +2,7 @@
 
 C#／.NET 後端工程師，關注系統整合、工作流程自動化與實用工具。
 
-把日常遇到的問題做成工具，持續使用、驗證與改進。
+把日常遇到的問題做成工具，持續使用、驗證與改進。個人作品依任務採 Agent 協作，重視規格、結果核對與完成範圍。
 
 ## 持續使用的工具
 
@@ -13,6 +13,6 @@ C#／.NET 後端工程師，關注系統整合、工作流程自動化與實用�
 ## 展示與實驗
 
 - **[PetPet.Modern](https://github.com/Larry-kang/PetPet/tree/master/PetPet.Modern)** — .NET 8 寵物社群本地 Demo。
-- **[QR-Payment-Core｜主被掃支付交易核心](https://github.com/Larry-kang/QR-Payment-Core)** — C#／.NET 10 與 SQLite 個人早期 POC；目前具備交易記錄 API 與基本重複 key 檢查，主掃／被掃付款流程尚未實作。本人負責需求、規格討論與成果驗收，程式主要由 AI Agent 協作建立，不處理真實金流。
+- **[QR-Payment-Core｜QR 支付交易紀錄 POC](https://github.com/Larry-kang/QR-Payment-Core)** — C#／.NET 10 與 SQLite 早期 POC，提供交易記錄 API、基本重複 key 檢查與唯一索引；主掃／被掃付款流程尚未實作，不處理真實金流。
 
 [LinkedIn](https://www.linkedin.com/in/larry-kang/)
