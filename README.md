@@ -13,6 +13,6 @@ C#／.NET 後端工程師，關注系統整合、工作流程自動化與實用�
 ## 展示與實驗
 
 - **[PetPet.Modern](https://github.com/Larry-kang/PetPet/tree/master/PetPet.Modern)** — .NET 8 寵物社群本地 Demo。
-- **[TWQR-Transaction-Core](https://github.com/Larry-kang/TWQR-Transaction-Core)** — 交易流程與可靠性實驗，早期 POC。
+- **[QR-Payment-Core｜主被掃支付交易核心](https://github.com/Larry-kang/QR-Payment-Core)** — C#／.NET 10 與 SQLite 個人早期 POC；目前具備交易記錄 API 與基本重複 key 檢查，主掃／被掃付款流程尚未實作。本人負責需求、規格討論與成果驗收，程式主要由 AI Agent 協作建立，不處理真實金流。
 
 [LinkedIn](https://www.linkedin.com/in/larry-kang/)
